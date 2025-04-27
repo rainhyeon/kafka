@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
         - name: chat-backend
-          image: iiilee0907/chat-backend:latest
+          image: iiilee0907/chat-backend-local:latest
           ports:
             - containerPort: 8080
